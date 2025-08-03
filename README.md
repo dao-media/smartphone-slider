@@ -2,7 +2,7 @@
 
 A responsive, interactive phone mockup carousel component with smooth touch gestures and professional navigation controls. Perfect for showcasing mobile app screens in portfolios and case studies.
 
-![Phone Carousel Demo](demo.gif)
+![Phone Carousel Demo](https://ibb.co/HWv97LG)
 
 ## Features
 
