@@ -216,10 +216,10 @@
 /* Ultra-wide Screens */
 @media (min-width: 1600px) {
   .carousel-prev {
-    left: calc(50% - 22% - var(--arrow-size) / 2);
+    left: calc(50% - 25% - var(--arrow-size) / 2);
   }
   
   .carousel-next {
-    left: calc(50% + 22% - var(--arrow-size) / 2);
+    left: calc(50% + 25% - var(--arrow-size) / 2);
   }
 }
