@@ -57,3 +57,18 @@ A responsive, interactive phone mockup carousel component with smooth touch gest
   <!-- Dots indicator (optional) -->
   <div class="carousel-dots"></div>
 </div>
+```
+
+## **Arrow Styling**
+```html
+.carousel-arrow {
+  background: rgba(255, 255, 255, 0.9);  /* White background */
+  color: #333;                           /* Dark icons */
+  border: 2px solid #ddd;                /* Add border */
+}
+
+.carousel-arrow:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: translateY(-50%) scale(1.05); /* Smaller hover scale */
+}
+```
