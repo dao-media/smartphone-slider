@@ -97,16 +97,42 @@ A responsive, interactive phone mockup carousel component with smooth touch gest
 ```
 ## **Setting Max Container Size**
 ```html
-## **Adjusting Arrow Position**
-```html
-/* Closer to phone on desktop */
-:root {
-  --arrow-gap-desktop: 22%;
+.phone-carousel-container {
+  max-width: 600px;     /* Custom max width */
+  min-width: 320px;     /* Custom min width */
 }
 
-/* Further from phone on mobile */
-:root {
-  --arrow-gap-mobile: 40px;
+/* Specific breakpoint overrides */
+@media (min-width: 1400px) {
+  .phone-carousel-container {
+    max-width: 900px;   /* Larger on big screens */
+  }
 }
 ```
+## **Setting Max Container Size**
+```html
+.phone-carousel-container {
+  max-width: 600px;     /* Custom max width */
+  min-width: 320px;     /* Custom min width */
+}
+
+/* Specific breakpoint overrides */
+@media (min-width: 1400px) {
+  .phone-carousel-container {
+    max-width: 900px;   /* Larger on big screens */
+  }
+}
+```
+## **Touch Sensitivity**
+```html
+// Customize touch behavior when initializing
+const carousel = new PhoneCarousel(container);
+
+// Override default config
+carousel.config = {
+  swipeThreshold: 0.15,    // 15% swipe to trigger (more sensitive)
+  minSwipeThreshold: 30,   /* 30px minimum swipe */
+  dragResistance: 0.5,     /* More resistance at boundaries */
+  transitionDuration: 200  /* Faster transitions */
+};
 ```
