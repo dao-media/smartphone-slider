@@ -136,3 +136,18 @@ carousel.config = {
   transitionDuration: 200  /* Faster transitions */
 };
 ```
+
+Contributing
+
+Fork the repository
+Create a feature branch (git checkout -b feature/amazing-feature)
+Commit changes (git commit -m 'Add amazing feature')
+Push to branch (git push origin feature/amazing-feature)
+Open a Pull Request
+
+License
+MIT License - see LICENSE.md for details
+Credits
+
+Icons: Lucide Icons
+Inspiration: Modern mobile app presentation patterns
