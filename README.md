@@ -16,7 +16,7 @@ A responsive, interactive phone mockup carousel component with smooth touch gest
 
 ## Demo
 
-[Live Demo](your-demo-link-here) | [View on CodePen](your-codepen-link)
+[Live Demo](your-demo-link-here) | [View on CodePen](https://codepen.io/Dane-OLeary/pen/KwdWJbr)
 
 ## Quick Start
 
