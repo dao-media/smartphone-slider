@@ -72,3 +72,41 @@ A responsive, interactive phone mockup carousel component with smooth touch gest
   transform: translateY(-50%) scale(1.05); /* Smaller hover scale */
 }
 ```
+## **Adjusting Arrow Size**
+```html
+:root {
+  --arrow-size: 56px; /* Larger arrows */
+}
+
+.carousel-arrow svg {
+  width: 28px;  /* Adjust icon size proportionally */
+  height: 28px;
+}
+```
+## **Adjusting Arrow Position**
+```html
+/* Closer to phone on desktop */
+:root {
+  --arrow-gap-desktop: 22%;
+}
+
+/* Further from phone on mobile */
+:root {
+  --arrow-gap-mobile: 40px;
+}
+```
+## **Setting Max Container Size**
+```html
+## **Adjusting Arrow Position**
+```html
+/* Closer to phone on desktop */
+:root {
+  --arrow-gap-desktop: 22%;
+}
+
+/* Further from phone on mobile */
+:root {
+  --arrow-gap-mobile: 40px;
+}
+```
+```
