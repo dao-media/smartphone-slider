@@ -1,4 +1,4 @@
-# Responsive Phone Mockup Carousel
+# Responsive Smartphone Slider
 
 A responsive, interactive phone mockup carousel component with smooth touch gestures and professional navigation controls. Perfect for showcasing mobile app screens in portfolios and case studies.
 
