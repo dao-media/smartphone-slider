@@ -4,7 +4,7 @@ A responsive, interactive phone mockup carousel component with smooth touch gest
 
 !(https://ibb.co/HWv97LG "Optional title text")
 
-[![Phone Carousel Demo](https://ibb.co/HWv97LG)](https://ibb.co/HWv97LG)
+![Phone Carousel Demo](https://i.ibb.co/LLwsSD9/Screenshot-2025-08-03-at-1-20-05-PM.png)
 
 ## Features
 
